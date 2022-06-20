@@ -12,7 +12,7 @@ fi
 
 while :
 do
-	rclone sync "smalltd:" "onedrive:" --transfers 5 -P --ignore-existing --drive-chunk-size 256M --onedrive-chunk-size=5M --drive-acknowledge-abuse --drive-stop-on-upload-limit
+	rclone sync "drive1ee:" "onedrive:" --transfers 5 -P --ignore-existing --drive-chunk-size 256M --onedrive-chunk-size=5M --drive-acknowledge-abuse --drive-stop-on-upload-limit
 	sleep 60
 done
 
