@@ -8,4 +8,4 @@ then
   echo "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
 fi
 
-sh -c "timeout 12h rclone $*"
+sh -c "rclone $*"
