@@ -13,7 +13,7 @@ fi
 while :
 do
 	rclone sync "smalltd:" "onedrive:" --transfers 5 -P --ignore-existing --drive-chunk-size 256M --onedrive-chunk-size=5M --drive-acknowledge-abuse --drive-stop-on-upload-limit
-	sleep 3
+	sleep 60
 done
 
 #sh -c "rclone $*"
